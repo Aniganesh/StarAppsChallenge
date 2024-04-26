@@ -1,0 +1,12 @@
+:root {
+	--global-background: #00a0df18;
+	--selected-item-shadow: 0 0 0 4px #00a0df88;
+}
+
+.selected-item {
+	box-shadow: var(--selected-item-shadow);
+}
+
+body {
+	background: var(--global-background)
+}
