@@ -9,23 +9,24 @@
 	<script src="./fly.js" defer></script>
 </head>
 
-<body>
+<body class="overflow-y-auto">
 	<nav class="w-full flex items-center justify-center py-4 gap-4 font-bold fixed top-0">
 		<a href="index.html">Umbrella</a>
 		<a href="fly.html" class="underline">Fly to destination</a>
 	</nav>
-	<div class="h-screen w-screen flex justify-center items-center">
+	<div class="h-screen w-screen flex justify-center items-center pt-10 gap-4">
 		<div class="flex flex-col justify-center w-25vw gap-4">
-
 			<p class="text-xl">Enter array with units of fuel in each flight</p>
 			<p class="font-bold">Format [1,2,3,4,5]</p>
 			<textarea placeholder="Enter the array of numbers"></textarea>
 			<button id="calculate" class="w-25vw border-none bg-blue py-2 text-white">Get minimum number of planes
 				required</button>
-			<div id="result">
+			<button class="border-none bg-transparent" id="code-toggle">Toggle code</button>
+			<div id="result" class="py-2 px-2">
 			</div>
 			<div id="note"></div>
 		</div>
+		<pre class="hidden mt-10 pt-10 px-4 bg-light-gray"></pre>
 	</div>
 
 </body>

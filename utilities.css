@@ -12,6 +12,10 @@ a {
 	text-decoration: none;
 }
 
+button {
+	cursor: pointer;
+}
+
 .hidden {
 	display: none;
 }
@@ -125,7 +129,6 @@ a {
 
 .pt-10 {
 	padding-top: 2.5rem;
-	padding-bottom: 2.5rem;
 }
 
 .py-4 {
@@ -142,6 +145,11 @@ a {
 	padding-right: 1rem;
 }
 
+.px-2 {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
 .px-4 {
 	padding-right: 1rem;
 	padding-left: 1rem;
@@ -153,6 +161,10 @@ a {
 	margin-right: auto;
 }
 
+.mt-10 {
+	margin-top: 1.5rem;
+}
+
 /* border radius */
 
 .rounded-full {
@@ -160,6 +172,14 @@ a {
 }
 
 /* background */
+.bg-transparent {
+	background: transparent;
+}
+
+.bg-light-gray {
+	background: lightgray;
+}
+
 .bg-blue {
 	background: #00a0df;
 }
@@ -170,6 +190,14 @@ a {
 
 .bg-yellow {
 	background: #ffff32;
+}
+
+.bg-green {
+	background: #448832;
+}
+
+.bg-red {
+	background: #cf5828;
 }
 
 /* size */
@@ -219,4 +247,10 @@ a {
 
 .opacity-0 {
 	opacity: 0;
+}
+
+/* overflow */
+
+.overflow-y-auto {
+	overflow-y: auto;
 }
