@@ -123,6 +123,11 @@ a {
 
 /* Padding */
 
+.pt-10 {
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+
 .py-4 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
