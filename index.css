@@ -10,3 +10,17 @@
 body {
 	background: var(--global-background)
 }
+
+.spin {
+	animation: 2s spin linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

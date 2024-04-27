@@ -226,6 +226,19 @@ button {
 	color: white;
 }
 
+.text-blue {
+	color: #00a0df;
+}
+
+.text-pink {
+	color: #fc96cc;
+}
+
+.text-yellow {
+	color: #ffff32;
+}
+
+
 /* text sizing */
 .text-2xl {
 	font-size: 1.75rem;
